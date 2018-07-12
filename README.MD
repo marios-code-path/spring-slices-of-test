@@ -1,6 +1,6 @@
 # Spring Test Slices
 
-Isolate the logical layers above and below that thing under test. These are the invariants. In a Spring Boot application, autoconfiguration produces a large monolithic application context.
+Simplify testing by isolating the logical layers above and below that thing under test. These are the invariants. In a Spring Boot application, autoconfiguration produces a large monolithic application context.
 
 Test slices allow us to segment the application context in terms of logical layers. As an example, the [@WebMvcTest](https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/test/autoconfigure/web/servlet/WebMvcTest.html) slice only includes components related to the web tier, like `@Controller`-annotated components.
 
