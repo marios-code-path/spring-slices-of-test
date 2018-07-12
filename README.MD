@@ -96,7 +96,7 @@ The annotation also provides a [@PropertyMapping](https://docs.spring.io/spring-
 
 There are many other test slices in the Spring Boot ecosystem. Here, for example, is a test that uses the [@WebMvcTest](https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/test/autoconfigure/web/servlet/WebMvcTest.html).
 
-    MvcSliceTest.java:
+MvcSliceTest.java:
 
     @RunWith(SpringRunner.class)
     @WebMvcTest
